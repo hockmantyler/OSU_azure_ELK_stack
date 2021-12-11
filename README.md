@@ -80,7 +80,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![2021-12-02 20_33_45-sysadmin@ELK_ ~](C:\Users\Fuzzy\OSU_azure_ELK_stack\images\2021-12-02 20_33_45-sysadmin@ELK_ ~.png)
+![2021-12-02 20_33_45-sysadmin@ELK_ ~](https://github.com/hockmantyler/OSU_azure_ELK_stack/blob/main/images/2021-12-02%2020_33_45-sysadmin%40ELK_%20~.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -109,5 +109,3 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - The hosts file is used to tell Ansible which machines to configure. Inside the hosts file you can designate  different groups by writing a group name in brackets, such as [webservers]
 - http://<public_ELK_IP>:5601/app/kibana
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
