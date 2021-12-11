@@ -103,9 +103,8 @@ SSH into the control node and follow the steps below:
 - Update the __hosts__ file to include the IP addresses of machines you want to configure, as well as python interpreter it'll be using. 
 - Run the playbook, and navigate to the newly configured virtual machine to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+
 
 - The playbook files are the .yml files that begin with a line reading " --- " . These files need to be copied to the folder /etc/ansible.
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - The hosts file is used to tell Ansible which machines to configure. Inside the hosts file you can designate  different groups by writing a group name in brackets, such as [webservers]
 - http://<public_ELK_IP>:5601/app/kibana
