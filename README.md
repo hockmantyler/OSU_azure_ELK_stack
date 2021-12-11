@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](C:\Users\Fuzzy\OSU_azure_ELK_stack\Diagrams\azure_network.drawio.png)
+![TODO: Update the path with the name of your diagram](https://github.com/hockmantyler/OSU_azure_ELK_stack/blob/main/Diagrams/azure_network.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
